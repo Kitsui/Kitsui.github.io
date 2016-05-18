@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\n(Installing Kitsui CMS)[installation.md]", 
+            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\nInstalling Kitsui CMS", 
             "title": "Home"
         }, 
         {
@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/#getting-started", 
-            "text": "(Installing Kitsui CMS)[installation.md]", 
+            "text": "Installing Kitsui CMS", 
             "title": "Getting Started"
         }, 
         {
