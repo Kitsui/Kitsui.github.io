@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\n(Installing Kitsui CMS)[installation.md]", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-the-kitsui-documentation", 
+            "text": "", 
+            "title": "Welcome to the Kitsui documentation"
+        }, 
+        {
+            "location": "/#getting-started", 
+            "text": "(Installing Kitsui CMS)[installation.md]", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/installation/", 
+            "text": "Installation\n\n\nTo install Kitsui CMS, do the following.\n\n\nDownload code\n\n\nDownload the code.\n\n\nPerform setup steps.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/installation/#installation", 
+            "text": "To install Kitsui CMS, do the following.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/installation/#download-code", 
+            "text": "Download the code.", 
+            "title": "Download code"
+        }, 
+        {
+            "location": "/installation/#perform-setup-steps", 
+            "text": "", 
+            "title": "Perform setup steps."
+        }
+    ]
+}
