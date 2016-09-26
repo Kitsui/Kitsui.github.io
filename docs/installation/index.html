@@ -71,30 +71,6 @@
                         
                             
 <li >
-    <a href="../Code/index copy 2/">Index copy 2</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../Code/index copy 3/">Index copy 3</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../Code/index copy 4/">Index copy 4</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../Code/index copy/">Index copy</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../Code/">Home</a>
 </li>
 
@@ -119,7 +95,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../Code/index copy 2/">
+                        <a rel="prev" href="../Code/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -170,7 +146,7 @@
 <h2 id="set-up-your-environment">Set up your Environment</h2>
 <ol>
 <li>
-<p>Open up your Terminal and navigate to the CMS directory's root.</p>
+<p>Open up your Terminal and navigate to the <strong>CMS Repo</strong> directory's root.</p>
 </li>
 <li>
 <p>Ensure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.</p>
@@ -185,8 +161,13 @@
 <pre><code class="Python">python setup.py CMS-Name AWS-Region
 </code></pre>
 
+<p><img alt="Setup" src="../img/setup-command-screen.png" /></p>
+<h4 id="installation-success-check">Installation Success Check</h4>
 <p>After the Setup script has finished its work, navigate to <a href="../aws.amazon.com">Amazon Web Services</a> and login to verify your installation was successful.<br />
 You should be able to see new resources within the <strong>S3 bucket</strong>, <strong>Dynamo Database</strong>, <strong>API gateway</strong> and <strong>Lambda</strong> with the same CMS-Name suffixed to the resource name.</p>
+<h4 id="admin-login-credentials">Admin Login Credentials</h4>
+<p>You will be given a default <strong>Password</strong> and <strong>Username</strong> to login to the <strong>Admin panel</strong> at the end of the setup as seen bellow.
+<img alt="Finished Setup" src="../img/finished-setup.png" /></p>
 <p><br />
 <hr></p>
 <h1 id="removal">Removal</h1>
@@ -200,7 +181,8 @@ You should be able to see new resources within the <strong>S3 bucket</strong>, <
 </code></pre>
 
 <p>You will be prompted with a list of installed CMS with a corresponding Number, <em>type</em> the <strong>Number</strong> of the CMS you wish to <strong>Remove</strong> and hit <strong>Enter</strong>.</p>
-<p><br />
+<p><img alt="Remove" src="../img/remove.png" />
+<br />
 <hr></p>
 <h1 id="updating-lambda-package">Updating Lambda Package</h1>
 <h2 id="information_1">Information</h2>
@@ -213,7 +195,8 @@ more information about developing on <strong>Lambda</strong> click <a href="http
 <pre><code class="Python">python update.py
 </code></pre>
 
-<p>You will be prompted with a list of installed CMS with a corresponding Number, <em>type</em> the <strong>Number</strong> of the CMS you wish to <strong>Update</strong> and hit <strong>Enter</strong>.</p></div>
+<p>You will be prompted with a list of installed CMS with a corresponding Number, <em>type</em> the <strong>Number</strong> of the CMS you wish to <strong>Update</strong> and hit <strong>Enter</strong>.</p>
+<p><img alt="Update" src="../img/update.png" /></p></div>
             
         </div>
 
