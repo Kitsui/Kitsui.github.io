@@ -11,6 +11,30 @@
 
     
     <url>
+     <loc>None/blog/</loc>
+     <lastmod>2016-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/cloud-front/</loc>
+     <lastmod>2016-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/cloudfront/</loc>
+     <lastmod>2016-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>None/installation/</loc>
      <lastmod>2016-09-26</lastmod>
      <changefreq>daily</changefreq>
@@ -18,13 +42,35 @@
     
 
     
-        
     <url>
-     <loc>None/Code/</loc>
+     <loc>None/page/</loc>
      <lastmod>2016-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
+    <url>
+     <loc>None/role/</loc>
+     <lastmod>2016-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/site-settings/</loc>
+     <lastmod>2016-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/user/</loc>
+     <lastmod>2016-09-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>

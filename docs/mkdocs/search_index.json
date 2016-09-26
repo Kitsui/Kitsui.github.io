@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\nInstalling Kitsui CMS", 
+            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\nInstalling\n\n\nRemoving\n\n\nUpdating\n\n\n\n\n\n\n\n\nGetting your website Live with Cloud Front\n\n\n\n\n\n\nUsers\n\n\n\n\n\n\nRoles\n\n\n\n\n\n\nBlogs\n\n\n\n\n\n\nPages\n\n\n\n\n\n\nSite Settings", 
             "title": "Home"
         }, 
         {
@@ -12,8 +12,23 @@
         }, 
         {
             "location": "/#getting-started", 
-            "text": "Installing Kitsui CMS", 
+            "text": "Installing Kitsui CMS   Installing  Removing  Updating     Getting your website Live with Cloud Front    Users    Roles    Blogs    Pages    Site Settings", 
             "title": "Getting Started"
+        }, 
+        {
+            "location": "/blog/", 
+            "text": "", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/cloud-front/", 
+            "text": "", 
+            "title": "Cloud front"
+        }, 
+        {
+            "location": "/cloudfront/", 
+            "text": "", 
+            "title": "Cloudfront"
         }, 
         {
             "location": "/installation/", 
@@ -81,9 +96,24 @@
             "title": "Perform update steps"
         }, 
         {
-            "location": "/Code/", 
-            "text": "=Code\nThis is where we will document the code for future developers and people who want to adapt Kitsui CMS to their needs.", 
-            "title": "Home"
+            "location": "/page/", 
+            "text": "page", 
+            "title": "Page"
+        }, 
+        {
+            "location": "/role/", 
+            "text": "roles", 
+            "title": "Role"
+        }, 
+        {
+            "location": "/site-settings/", 
+            "text": "site settings", 
+            "title": "Site settings"
+        }, 
+        {
+            "location": "/user/", 
+            "text": "user", 
+            "title": "User"
         }
     ]
 }
