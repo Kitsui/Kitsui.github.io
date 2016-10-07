@@ -4,65 +4,59 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>None/blog/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <loc>None/Creating Content/blog/</loc>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>None/Creating Content/page/</loc>
+     <lastmod>2016-10-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>None/cloud-front/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <loc>None/Setting up/cloud-front/</loc>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>None/installation/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <loc>None/Setting up/installation/</loc>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>None/page/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <loc>None/Setting up/role/</loc>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>None/role/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <loc>None/Setting up/site-settings/</loc>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>None/site-settings/</loc>
-     <lastmod>2016-10-04</lastmod>
+     <loc>None/Setting up/user/</loc>
+     <lastmod>2016-10-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>None/user/</loc>
-     <lastmod>2016-10-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
 </urlset>

@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\nInstalling\n\n\nRemoving\n\n\nUpdating\n\n\n\n\n\n\n\n\nGetting your website Live with Cloud Front\n\n\n\n\n\n\nUsers\n\n\n\n\n\n\nRoles\n\n\n\n\n\n\nBlogs\n\n\n\n\n\n\nPages\n\n\n\n\n\n\nSite Settings", 
+            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\nSetup\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\nInstalling\n\n\nRemoving\n\n\nUpdating\n\n\n\n\n\n\n\n\nSite Settings\n\n\n\n\nSetting up Cloud Front\n\n\n\n\n\n\n\n\nRoles\n\n\n\n\n\n\nUsers\n\n\n\n\n\n\nCreate Some Content\n\n\n\n\n\n\nBlogs\n\n\n\n\n\n\nPages", 
             "title": "Home"
         }, 
         {
@@ -12,101 +12,151 @@
         }, 
         {
             "location": "/#getting-started", 
-            "text": "Installing Kitsui CMS   Installing  Removing  Updating     Getting your website Live with Cloud Front    Users    Roles    Blogs    Pages    Site Settings", 
+            "text": "", 
             "title": "Getting Started"
         }, 
         {
-            "location": "/blog/", 
+            "location": "/#setup", 
+            "text": "Installing Kitsui CMS   Installing  Removing  Updating     Site Settings   Setting up Cloud Front     Roles    Users", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/#create-some-content", 
+            "text": "Blogs    Pages", 
+            "title": "Create Some Content"
+        }, 
+        {
+            "location": "/Creating Content/blog/", 
             "text": "", 
             "title": "Blog"
         }, 
         {
-            "location": "/cloud-front/", 
-            "text": "", 
-            "title": "Cloud front"
-        }, 
-        {
-            "location": "/installation/", 
-            "text": "Installation\n\n\n\n\n\nFirst Download code\n\n\nDownload the \nRepo code here\n\n\nSet up your Environment\n\n\n\n\n\n\nOpen up your Terminal and navigate to the \nCMS Repo\n directory's root.\n\n\n\n\n\n\nEnsure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.\n\n\n\n\n\n\nPerform setup steps\n\n\n\n\nTo deploy, run the following command in your terminal window\n\n\nCMS-Name :\n name for your CMS\n\n\nAWS-Region :\n AWS Region the CMS is be installed on.  \n\n\n\n\npython setup.py CMS-Name AWS-Region\n\n\n\n\n\n\nInstallation Success Check\n\n\nAfter the Setup script has finished its work, navigate to \nAmazon Web Services\n and login to verify your installation was successful.\n\nYou should be able to see new resources within the \nS3 bucket\n, \nDynamo Database\n, \nAPI gateway\n and \nLambda\n with the same CMS-Name suffixed to the resource name.\n\n\nAdmin Login Credentials\n\n\nYou will be given a default \nPassword\n and \nUsername\n to login to the \nAdmin panel\n at the end of the setup as seen bellow.\n\n\n\n\n\n\n\nRemoval\n\n\nInformation\n\n\nRight now the removal \n\n\nPerform removal steps\n\n\n\n\nTo Remove, run the following command in your terminal window.\n\n\n\n\npython remove.py\n\n\n\n\nYou will be prompted with a list of installed CMS with a corresponding Number, \ntype\n the \nNumber\n of the CMS you wish to \nRemove\n and hit \nEnter\n.\n\n\n\n\n\n\n\n\nUpdating Lambda Package\n\n\nInformation\n\n\nThe following instructions is for \nDeploying\n the \nLambda\n package after modifying or adding functionality\n\nmore information about developing on \nLambda\n click \nhere\n\n\nPerform update steps\n\n\n\n\nTo Update, run the following command in your terminal window.\n\n\n\n\npython update.py\n\n\n\n\nYou will be prompted with a list of installed CMS with a corresponding Number, \ntype\n the \nNumber\n of the CMS you wish to \nUpdate\n and hit \nEnter\n.", 
-            "title": "Installation"
-        }, 
-        {
-            "location": "/installation/#installation", 
-            "text": "", 
-            "title": "Installation"
-        }, 
-        {
-            "location": "/installation/#first-download-code", 
-            "text": "Download the  Repo code here", 
-            "title": "First Download code"
-        }, 
-        {
-            "location": "/installation/#set-up-your-environment", 
-            "text": "Open up your Terminal and navigate to the  CMS Repo  directory's root.    Ensure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.", 
-            "title": "Set up your Environment"
-        }, 
-        {
-            "location": "/installation/#perform-setup-steps", 
-            "text": "To deploy, run the following command in your terminal window  CMS-Name :  name for your CMS  AWS-Region :  AWS Region the CMS is be installed on.     python setup.py CMS-Name AWS-Region", 
-            "title": "Perform setup steps"
-        }, 
-        {
-            "location": "/installation/#installation-success-check", 
-            "text": "After the Setup script has finished its work, navigate to  Amazon Web Services  and login to verify your installation was successful. \nYou should be able to see new resources within the  S3 bucket ,  Dynamo Database ,  API gateway  and  Lambda  with the same CMS-Name suffixed to the resource name.", 
-            "title": "Installation Success Check"
-        }, 
-        {
-            "location": "/installation/#admin-login-credentials", 
-            "text": "You will be given a default  Password  and  Username  to login to the  Admin panel  at the end of the setup as seen bellow.", 
-            "title": "Admin Login Credentials"
-        }, 
-        {
-            "location": "/installation/#removal", 
-            "text": "", 
-            "title": "Removal"
-        }, 
-        {
-            "location": "/installation/#information", 
-            "text": "Right now the removal", 
-            "title": "Information"
-        }, 
-        {
-            "location": "/installation/#perform-removal-steps", 
-            "text": "To Remove, run the following command in your terminal window.   python remove.py  You will be prompted with a list of installed CMS with a corresponding Number,  type  the  Number  of the CMS you wish to  Remove  and hit  Enter .", 
-            "title": "Perform removal steps"
-        }, 
-        {
-            "location": "/installation/#updating-lambda-package", 
-            "text": "", 
-            "title": "Updating Lambda Package"
-        }, 
-        {
-            "location": "/installation/#information_1", 
-            "text": "The following instructions is for  Deploying  the  Lambda  package after modifying or adding functionality \nmore information about developing on  Lambda  click  here", 
-            "title": "Information"
-        }, 
-        {
-            "location": "/installation/#perform-update-steps", 
-            "text": "To Update, run the following command in your terminal window.   python update.py  You will be prompted with a list of installed CMS with a corresponding Number,  type  the  Number  of the CMS you wish to  Update  and hit  Enter .", 
-            "title": "Perform update steps"
-        }, 
-        {
-            "location": "/page/", 
+            "location": "/Creating Content/page/", 
             "text": "page", 
             "title": "Page"
         }, 
         {
-            "location": "/role/", 
+            "location": "/Setting up/cloud-front/", 
+            "text": "", 
+            "title": "Cloud front"
+        }, 
+        {
+            "location": "/Setting up/installation/", 
+            "text": "Installation\n\n\n\n\n\nFirst Download code\n\n\nDownload the \nRepo code here\n\n\nSet up your Environment\n\n\n\n\n\n\nOpen up your Terminal and navigate to the \nCMS Repo\n directory's root.\n\n\n\n\n\n\nEnsure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.\n\n\n\n\n\n\nPerform setup steps\n\n\n\n\nTo deploy, run the following command in your terminal window\n\n\nCMS-Name :\n name for your CMS\n\n\nAWS-Region (Optional):\n AWS Region the CMS is be installed on.\n\n\n Note : A Region with the Lambda module avilable will have to be selected \n \n\n\nFind\n the up to date available services by region \nhere\n \n\n\n\n\npython setup.py CMS-Name AWS-Region\n\n\n\n\n\n\nInstallation Success Check\n\n\nAfter the Setup script has finished its work, navigate to \nAmazon Web Services\n and login to verify your installation was successful.\n\nYou should be able to see new resources within the \nS3 bucket\n, \nDynamo Database\n, \nAPI gateway\n and \nLambda\n with the same CMS-Name suffixed to the resource name.\n\n\nAdmin Login Credentials\n\n\nYou will be given a default \nPassword\n and \nUsername\n to login to the \nAdmin panel\n at the end of the setup as seen bellow.\n\n\n\nSetting Up CloudFront\n\n\nNext you would want to set up your Cloud Front.\n\n\n\n\n\nRemoval\n\n\nInformation\n\n\nRight now the removal \n\n\nPerform removal steps\n\n\n\n\nTo Remove, run the following command in your terminal window.\n\n\n\n\npython remove.py\n\n\n\n\nYou will be prompted with a list of installed CMS with a corresponding Number, \ntype\n the \nNumber\n of the CMS you wish to \nRemove\n and hit \nEnter\n.\n\n\n\n\n\n\n\n\nUpdating Lambda Package\n\n\nInformation\n\n\nThe following instructions is for \nDeploying\n the \nLambda\n package after modifying or adding functionality\n\nmore information about developing on \nLambda\n click \nhere\n\n\nPerform update steps\n\n\n\n\nTo Update, run the following command in your terminal window.\n\n\n\n\npython update.py\n\n\n\n\nYou will be prompted with a list of installed CMS with a corresponding Number, \ntype\n the \nNumber\n of the CMS you wish to \nUpdate\n and hit \nEnter\n.\n\n\n  \n\n\nEverything Looks pretty good so far!\n\n\nLets set up the settings of your personalised site!\n\n\nSite Settings Setup", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/Setting up/installation/#installation", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/Setting up/installation/#first-download-code", 
+            "text": "Download the  Repo code here", 
+            "title": "First Download code"
+        }, 
+        {
+            "location": "/Setting up/installation/#set-up-your-environment", 
+            "text": "Open up your Terminal and navigate to the  CMS Repo  directory's root.    Ensure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.", 
+            "title": "Set up your Environment"
+        }, 
+        {
+            "location": "/Setting up/installation/#perform-setup-steps", 
+            "text": "To deploy, run the following command in your terminal window  CMS-Name :  name for your CMS  AWS-Region (Optional):  AWS Region the CMS is be installed on.   Note : A Region with the Lambda module avilable will have to be selected     Find  the up to date available services by region  here     python setup.py CMS-Name AWS-Region", 
+            "title": "Perform setup steps"
+        }, 
+        {
+            "location": "/Setting up/installation/#installation-success-check", 
+            "text": "After the Setup script has finished its work, navigate to  Amazon Web Services  and login to verify your installation was successful. \nYou should be able to see new resources within the  S3 bucket ,  Dynamo Database ,  API gateway  and  Lambda  with the same CMS-Name suffixed to the resource name.", 
+            "title": "Installation Success Check"
+        }, 
+        {
+            "location": "/Setting up/installation/#admin-login-credentials", 
+            "text": "You will be given a default  Password  and  Username  to login to the  Admin panel  at the end of the setup as seen bellow.", 
+            "title": "Admin Login Credentials"
+        }, 
+        {
+            "location": "/Setting up/installation/#setting-up-cloudfront", 
+            "text": "Next you would want to set up your Cloud Front.", 
+            "title": "Setting Up CloudFront"
+        }, 
+        {
+            "location": "/Setting up/installation/#removal", 
+            "text": "", 
+            "title": "Removal"
+        }, 
+        {
+            "location": "/Setting up/installation/#information", 
+            "text": "Right now the removal", 
+            "title": "Information"
+        }, 
+        {
+            "location": "/Setting up/installation/#perform-removal-steps", 
+            "text": "To Remove, run the following command in your terminal window.   python remove.py  You will be prompted with a list of installed CMS with a corresponding Number,  type  the  Number  of the CMS you wish to  Remove  and hit  Enter .", 
+            "title": "Perform removal steps"
+        }, 
+        {
+            "location": "/Setting up/installation/#updating-lambda-package", 
+            "text": "", 
+            "title": "Updating Lambda Package"
+        }, 
+        {
+            "location": "/Setting up/installation/#information_1", 
+            "text": "The following instructions is for  Deploying  the  Lambda  package after modifying or adding functionality \nmore information about developing on  Lambda  click  here", 
+            "title": "Information"
+        }, 
+        {
+            "location": "/Setting up/installation/#perform-update-steps", 
+            "text": "To Update, run the following command in your terminal window.   python update.py  You will be prompted with a list of installed CMS with a corresponding Number,  type  the  Number  of the CMS you wish to  Update  and hit  Enter .", 
+            "title": "Perform update steps"
+        }, 
+        {
+            "location": "/Setting up/installation/#everything-looks-pretty-good-so-far", 
+            "text": "Lets set up the settings of your personalised site!  Site Settings Setup", 
+            "title": "Everything Looks pretty good so far!"
+        }, 
+        {
+            "location": "/Setting up/role/", 
             "text": "roles", 
             "title": "Role"
         }, 
         {
-            "location": "/site-settings/", 
-            "text": "site settings", 
+            "location": "/Setting up/site-settings/", 
+            "text": "Site Settings\n\n\nThis is the section of the dashboard that controls the core configuration of \nfeatures that will be constant through out your whole site.\n\nTODO: PIC\n\n\nSite URL\n\n\nIf you go to your site right now, notice that when you look at the current URL address\nof your site is not quite attractive. This setting allows you to set the site URL/Domain \nname you wish your site to be reached at. TODO: HOW\nTODO: PIC\n\n\nGoogle Search URL\n\n\nIf you would like your site to include a searchbar, this setting allows you to include one!\nSimply TODO: HOW\nTODO: PIC\n\n\nDisqus URL\n\n\nIf you would like to run a comments section for your posts that you create on your site you\nmay do so. Include TODO: HOW\nTODO: PIC\n\n\nHeader\n\n\nThis Section allows you to customize the header of your site\nTODO: HOW\nTODO: PIC\n\n\nFooter\n\n\nThis Section allows you to customize the footer of your site\nTODO: HOW\nTODO: PIC", 
             "title": "Site settings"
         }, 
         {
-            "location": "/user/", 
+            "location": "/Setting up/site-settings/#site-settings", 
+            "text": "This is the section of the dashboard that controls the core configuration of \nfeatures that will be constant through out your whole site. \nTODO: PIC", 
+            "title": "Site Settings"
+        }, 
+        {
+            "location": "/Setting up/site-settings/#site-url", 
+            "text": "If you go to your site right now, notice that when you look at the current URL address\nof your site is not quite attractive. This setting allows you to set the site URL/Domain \nname you wish your site to be reached at. TODO: HOW\nTODO: PIC", 
+            "title": "Site URL"
+        }, 
+        {
+            "location": "/Setting up/site-settings/#google-search-url", 
+            "text": "If you would like your site to include a searchbar, this setting allows you to include one!\nSimply TODO: HOW\nTODO: PIC", 
+            "title": "Google Search URL"
+        }, 
+        {
+            "location": "/Setting up/site-settings/#disqus-url", 
+            "text": "If you would like to run a comments section for your posts that you create on your site you\nmay do so. Include TODO: HOW\nTODO: PIC", 
+            "title": "Disqus URL"
+        }, 
+        {
+            "location": "/Setting up/site-settings/#header", 
+            "text": "This Section allows you to customize the header of your site\nTODO: HOW\nTODO: PIC", 
+            "title": "Header"
+        }, 
+        {
+            "location": "/Setting up/site-settings/#footer", 
+            "text": "This Section allows you to customize the footer of your site\nTODO: HOW\nTODO: PIC", 
+            "title": "Footer"
+        }, 
+        {
+            "location": "/Setting up/user/", 
             "text": "user", 
             "title": "User"
         }
