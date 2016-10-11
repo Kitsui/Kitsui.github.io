@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Role - Kitsui CMS Documentation</title>
+	<title>Managing Content - Kitsui CMS Documentation</title>
 
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +43,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="../..">Kitsui CMS Documentation</a>
+            <a class="navbar-brand" href="..">Kitsui CMS Documentation</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -54,48 +54,42 @@
                 
                 
                     <li >
-                        <a href="../..">Home</a>
+                        <a href="..">Home</a>
                     </li>
                 
                 
                 
-                    <li >
-                        <a href="../../Managing Content/">Managing Content</a>
+                    <li class="active">
+                        <a href="./">Managing Content</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setting up <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../cloud-front/">Cloud front</a>
+    <a href="../Setting up/Users and Roles/">Users and Roles</a>
 </li>
 
                         
                             
 <li >
-    <a href="../installation/">Installation</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">Role</a>
+    <a href="../Setting up/cloud-front/">Cloud front</a>
 </li>
 
                         
                             
 <li >
-    <a href="../site-settings/">Site settings</a>
+    <a href="../Setting up/installation/">Installation</a>
 </li>
 
                         
                             
 <li >
-    <a href="../user/">User</a>
+    <a href="../Setting up/site-settings/">Site settings</a>
 </li>
 
                         
@@ -114,12 +108,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../installation/">
+                        <a rel="next" href="..">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../site-settings/">
+                        <a rel="prev" href="../Setting up/Users and Roles/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -135,11 +129,53 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#managing-your-content">Managing your Content</a></li>
+        
+            <li><a href="#create">Create</a></li>
+        
+            <li><a href="#view">View</a></li>
+        
+            <li><a href="#delete">Delete</a></li>
+        
+            <li><a href="#edit">Edit</a></li>
+        
+    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p>roles</p></div>
+<h1 id="managing-your-content">Managing your Content</h1>
+<hr>
+
+<h2 id="create">Create</h2>
+<p>To Create content, navigate to <strong>Create Content</strong> on the navigation bar and select either 
+to create a new post, page or upload an image.<br />
+<img alt="createContent" src="../../img/createPage.png" /><br />
+<hr></p>
+<h2 id="view">View</h2>
+<p>To View content created, navigate to <strong>View Content</strong> on the navigation bar and select either the
+pages or posts item in the drop down menu.<br />
+<img alt="viewContent" src="../../img/menuViewContent.png" />  </p>
+<pre><code>Note : unfortunately viewing images has not been implemented as of yet.
+</code></pre>
+
+<hr>
+
+<h2 id="delete">Delete</h2>
+<p>To Delete content, follow the same steps as the View instructions. hen when viewing the list of content
+click on the <strong>Delete Button</strong>.<br />
+<img alt="viewContent" src="../../img/pagesTable.png" />
+<hr></p>
+<h2 id="edit">Edit</h2>
+<p>To Edit, follow the same steps as the View instructions. Then when viewing the list of content
+click on the <strong>Hyperlink</strong> text in the left most column of the row item you wish to edit. 
+You will be brought to the edit panel and you will be able to make your changes accordingly and 
+then click the <strong>Publish Button</strong> to finalise your changes.
+<img alt="viewContent" src="../../img/pagesTable.png" />
+<hr></p>
+<h3 id="awesome-content-managing">Awesome Content Managing!</h3>
+<p><strong>Lets Something</strong> <br />
+<a href="../Setting up/site-settings/">&lt;&lt; Site Settings</a>  </p></div>
             
         </div>
 
@@ -149,12 +185,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">

@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\nSetup\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\nInstalling\n\n\nRemoving\n\n\nUpdating\n\n\n\n\n\n\n\n\nSite Settings\n\n\n\n\nSetting up Cloud Front\n\n\n\n\n\n\n\n\nRoles\n\n\n\n\n\n\nUsers\n\n\n\n\n\n\nCreate Some Content\n\n\n\n\n\n\nBlogs\n\n\n\n\n\n\nPages", 
+            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\nSetup\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\nInstalling\n\n\nRemoving\n\n\nUpdating\n\n\n\n\n\n\n\n\nSite Settings\n\n\n\n\nSetting up Cloud Front", 
             "title": "Home"
         }, 
         {
@@ -17,23 +17,68 @@
         }, 
         {
             "location": "/#setup", 
-            "text": "Installing Kitsui CMS   Installing  Removing  Updating     Site Settings   Setting up Cloud Front     Roles    Users", 
+            "text": "Installing Kitsui CMS   Installing  Removing  Updating     Site Settings   Setting up Cloud Front", 
             "title": "Setup"
         }, 
         {
-            "location": "/#create-some-content", 
-            "text": "Blogs    Pages", 
-            "title": "Create Some Content"
+            "location": "/Managing Content/", 
+            "text": "Managing your Content\n\n\n\n\n\nCreate\n\n\nTo Create content, navigate to \nCreate Content\n on the navigation bar and select either \nto create a new post, page or upload an image.\n\n\n\n\n\n\nView\n\n\nTo View content created, navigate to \nView Content\n on the navigation bar and select either the\npages or posts item in the drop down menu.\n\n\n  \n\n\nNote : unfortunately viewing images has not been implemented as of yet.\n\n\n\n\n\n\n\nDelete\n\n\nTo Delete content, follow the same steps as the View instructions. hen when viewing the list of content\nclick on the \nDelete Button\n.\n\n\n\n\n\n\nEdit\n\n\nTo Edit, follow the same steps as the View instructions. Then when viewing the list of content\nclick on the \nHyperlink\n text in the left most column of the row item you wish to edit. \nYou will be brought to the edit panel and you will be able to make your changes accordingly and \nthen click the \nPublish Button\n to finalise your changes.\n\n\n\n\n\nAwesome Content Managing!\n\n\nLets Something\n \n\n\n Site Settings", 
+            "title": "Managing Content"
         }, 
         {
-            "location": "/Creating Content/blog/", 
+            "location": "/Managing Content/#managing-your-content", 
             "text": "", 
-            "title": "Blog"
+            "title": "Managing your Content"
         }, 
         {
-            "location": "/Creating Content/page/", 
-            "text": "page", 
-            "title": "Page"
+            "location": "/Managing Content/#create", 
+            "text": "To Create content, navigate to  Create Content  on the navigation bar and select either \nto create a new post, page or upload an image.", 
+            "title": "Create"
+        }, 
+        {
+            "location": "/Managing Content/#view", 
+            "text": "To View content created, navigate to  View Content  on the navigation bar and select either the\npages or posts item in the drop down menu.      Note : unfortunately viewing images has not been implemented as of yet.", 
+            "title": "View"
+        }, 
+        {
+            "location": "/Managing Content/#delete", 
+            "text": "To Delete content, follow the same steps as the View instructions. hen when viewing the list of content\nclick on the  Delete Button .", 
+            "title": "Delete"
+        }, 
+        {
+            "location": "/Managing Content/#edit", 
+            "text": "To Edit, follow the same steps as the View instructions. Then when viewing the list of content\nclick on the  Hyperlink  text in the left most column of the row item you wish to edit. \nYou will be brought to the edit panel and you will be able to make your changes accordingly and \nthen click the  Publish Button  to finalise your changes.", 
+            "title": "Edit"
+        }, 
+        {
+            "location": "/Managing Content/#awesome-content-managing", 
+            "text": "Lets Something     Site Settings", 
+            "title": "Awesome Content Managing!"
+        }, 
+        {
+            "location": "/Setting up/Users and Roles/", 
+            "text": "Users\n\n\nUser Attributes\n\n\nRoles\n\n\nPermisions", 
+            "title": "Users and Roles"
+        }, 
+        {
+            "location": "/Setting up/Users and Roles/#users", 
+            "text": "", 
+            "title": "Users"
+        }, 
+        {
+            "location": "/Setting up/Users and Roles/#user-attributes", 
+            "text": "", 
+            "title": "User Attributes"
+        }, 
+        {
+            "location": "/Setting up/Users and Roles/#roles", 
+            "text": "", 
+            "title": "Roles"
+        }, 
+        {
+            "location": "/Setting up/Users and Roles/#permisions", 
+            "text": "", 
+            "title": "Permisions"
         }, 
         {
             "location": "/Setting up/cloud-front/", 
@@ -116,49 +161,44 @@
             "title": "Everything Looks pretty good so far!"
         }, 
         {
-            "location": "/Setting up/role/", 
-            "text": "roles", 
-            "title": "Role"
-        }, 
-        {
             "location": "/Setting up/site-settings/", 
-            "text": "Site Settings\n\n\nThis is the section of the dashboard that controls the core configuration of \nfeatures that will be constant through out your whole site.\n\nTODO: PIC\n\n\nSite URL\n\n\nIf you go to your site right now, notice that when you look at the current URL address\nof your site is not quite attractive. This setting allows you to set the site URL/Domain \nname you wish your site to be reached at. TODO: HOW\nTODO: PIC\n\n\nGoogle Search URL\n\n\nIf you would like your site to include a searchbar, this setting allows you to include one!\nSimply TODO: HOW\nTODO: PIC\n\n\nDisqus URL\n\n\nIf you would like to run a comments section for your posts that you create on your site you\nmay do so. Include TODO: HOW\nTODO: PIC\n\n\nHeader\n\n\nThis Section allows you to customize the header of your site\nTODO: HOW\nTODO: PIC\n\n\nFooter\n\n\nThis Section allows you to customize the footer of your site\nTODO: HOW\nTODO: PIC", 
+            "text": "Site Settings\n\n\n\nThis is the section of the dashboard that controls the core configuration of \nfeatures that will be constant through out your whole site.\n\n\n\n\n\n\nSite URL\n\n\nIf you go to your site right now, notice that when you look at the current URL address\nof your site is not quite attractive. This setting allows you to set the site URL/Domain \nname you wish your site to be reached at. This would typically be linked up through your CDN\nwith th a domain you own.\n\n\nGoogle Search URL\n\n\nIf you would like your site to include a searchbar, this setting allows you to include one!\n\n\nMore Info\n\n\nDisqus URL\n\n\nIf you would like to run a comments section for your posts that you create on your site you\nmay do so.\n\n\nGet Started Here\n\n\nHeader\n\n\nThis Section allows you to customize the header of your site\n\n\nFooter\n\n\nThis Section allows you to customize the footer of your site\n\n\nNice Structure!\n\n\nNow Lets add some content!\n\n\nManaging Your Content \n\n\n Installation", 
             "title": "Site settings"
         }, 
         {
             "location": "/Setting up/site-settings/#site-settings", 
-            "text": "This is the section of the dashboard that controls the core configuration of \nfeatures that will be constant through out your whole site. \nTODO: PIC", 
+            "text": "This is the section of the dashboard that controls the core configuration of \nfeatures that will be constant through out your whole site.", 
             "title": "Site Settings"
         }, 
         {
             "location": "/Setting up/site-settings/#site-url", 
-            "text": "If you go to your site right now, notice that when you look at the current URL address\nof your site is not quite attractive. This setting allows you to set the site URL/Domain \nname you wish your site to be reached at. TODO: HOW\nTODO: PIC", 
+            "text": "If you go to your site right now, notice that when you look at the current URL address\nof your site is not quite attractive. This setting allows you to set the site URL/Domain \nname you wish your site to be reached at. This would typically be linked up through your CDN\nwith th a domain you own.", 
             "title": "Site URL"
         }, 
         {
             "location": "/Setting up/site-settings/#google-search-url", 
-            "text": "If you would like your site to include a searchbar, this setting allows you to include one!\nSimply TODO: HOW\nTODO: PIC", 
+            "text": "If you would like your site to include a searchbar, this setting allows you to include one!  More Info", 
             "title": "Google Search URL"
         }, 
         {
             "location": "/Setting up/site-settings/#disqus-url", 
-            "text": "If you would like to run a comments section for your posts that you create on your site you\nmay do so. Include TODO: HOW\nTODO: PIC", 
+            "text": "If you would like to run a comments section for your posts that you create on your site you\nmay do so.  Get Started Here", 
             "title": "Disqus URL"
         }, 
         {
             "location": "/Setting up/site-settings/#header", 
-            "text": "This Section allows you to customize the header of your site\nTODO: HOW\nTODO: PIC", 
+            "text": "This Section allows you to customize the header of your site", 
             "title": "Header"
         }, 
         {
             "location": "/Setting up/site-settings/#footer", 
-            "text": "This Section allows you to customize the footer of your site\nTODO: HOW\nTODO: PIC", 
+            "text": "This Section allows you to customize the footer of your site", 
             "title": "Footer"
         }, 
         {
-            "location": "/Setting up/user/", 
-            "text": "user", 
-            "title": "User"
+            "location": "/Setting up/site-settings/#nice-structure", 
+            "text": "Now Lets add some content!  Managing Your Content    Installation", 
+            "title": "Nice Structure!"
         }
     ]
 }
