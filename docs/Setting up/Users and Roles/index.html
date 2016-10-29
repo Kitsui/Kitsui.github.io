@@ -60,7 +60,7 @@
                 
                 
                     <li >
-                        <a href="../../Managing Content/">Managing Content</a>
+                        <a href="../../Managing%20Content/">Managing Content</a>
                     </li>
                 
                 
@@ -108,7 +108,7 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../Managing Content/">
+                        <a rel="next" href="../../Managing%20Content/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
@@ -131,8 +131,6 @@
     
         <li class="main active"><a href="#users">Users</a></li>
         
-            <li><a href="#user-attributes">User Attributes</a></li>
-        
     
         <li class="main "><a href="#roles">Roles</a></li>
         
@@ -144,9 +142,40 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="users">Users</h1>
-<h3 id="user-attributes">User Attributes</h3>
+<p>You will need users to get more work done on your site, the CMS tool 
+allows you to add users with custom logins and roles to what they can
+do.</p>
+<p>Fill out the user registration form and press the submit button to create a user<br />
+<img alt="viewContent" src="../../img/viewUsers.png" />
+<img alt="registerNewUser" src="../../img/register-user.png" /></p>
+<p>Similar to managing content which we went through in the previous page 
+to edit, view or delete users navigate to the users tab on the side menu and click 
+"View Users". You will be presented with a list view of all the users registered in 
+the CMS.</p>
 <h1 id="roles">Roles</h1>
-<h2 id="permisions">Permisions</h2></div>
+<p>Roles hold a list of permissions which you assign to each user so they are able do what they
+what they need to do. To create a new Role navigate to the "User" tab on the side menu and select
+the sub menu item "Add Role". Similar to managing content which we went through in the previous page 
+to view, edit and delete roles Navigate to the "User" tab on the sire menu and 
+select View Roles.<br />
+<img alt="viewRoles" src="../../img/roleTable.png" />
+<img alt="viewContent" src="../../img/register-user.png" /></p>
+<h2 id="permisions">Permisions</h2>
+<p>Here is the list of permissions you will be able to give to a single User  </p>
+<pre><code>Supported Get Requests
+    &quot;getUser&quot;, &quot;getUserFromId&quot;, &quot;getAllUsers&quot;, &quot;getAllRoles&quot;, &quot;getRole&quot;, &quot;getBlog&quot;,  
+    &quot;getAllBlogs&quot;, &quot;getPage&quot;, &quot;getAllPages&quot;, &quot;getPresignedPostImage&quot;,
+    &quot;getSiteSettings&quot;, &quot;getNavItems&quot;
+
+Supported Put Requests
+    &quot;putUser&quot;, &quot;putRole&quot;, &quot;putBlog&quot;, &quot;editBlog&quot;, &quot;putPage&quot;, &quot;putNavItems&quot;,
+    &quot;putSiteSettings&quot;
+
+Supported Delete Requests
+    &quot;deleteUser&quot;, &quot;deleteRole&quot;, &quot;deleteBlog&quot;, &quot;deletePage&quot;
+</code></pre>
+
+<p><a href="Setting up/Managing Content.md">&lt;&lt; Managing Content</a>  </p></div>
             
         </div>
 

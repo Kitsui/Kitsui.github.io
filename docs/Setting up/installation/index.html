@@ -60,7 +60,7 @@
                 
                 
                     <li >
-                        <a href="../../Managing Content/">Managing Content</a>
+                        <a href="../../Managing%20Content/">Managing Content</a>
                     </li>
                 
                 
@@ -71,7 +71,7 @@
                         
                             
 <li >
-    <a href="../Users and Roles/">Users and Roles</a>
+    <a href="../Users%20and%20Roles/">Users and Roles</a>
 </li>
 
                         
@@ -135,6 +135,8 @@
         
             <li><a href="#set-up-your-environment">Set up your Environment</a></li>
         
+            <li><a href="#cms-management-information">CMS management information</a></li>
+        
             <li><a href="#perform-setup-steps">Perform setup steps</a></li>
         
             <li><a href="#setting-up-cloudfront">Setting Up CloudFront</a></li>
@@ -142,14 +144,12 @@
     
         <li class="main "><a href="#removal">Removal</a></li>
         
-            <li><a href="#information">Information</a></li>
-        
             <li><a href="#perform-removal-steps">Perform removal steps</a></li>
         
     
         <li class="main "><a href="#updating-lambda-package">Updating Lambda Package</a></li>
         
-            <li><a href="#information_1">Information</a></li>
+            <li><a href="#information">Information</a></li>
         
             <li><a href="#perform-update-steps">Perform update steps</a></li>
         
@@ -166,12 +166,16 @@
 <h2 id="set-up-your-environment">Set up your Environment</h2>
 <ol>
 <li>
-<p>Open up your Terminal and navigate to the <strong>CMS Repo</strong> directory's root.</p>
+<p>Open up your terminal and navigate to the <strong>CMS Repo</strong> directory's root.</p>
 </li>
 <li>
-<p>Ensure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.</p>
+<p>Ensure that your AWS terminal has already been configured with the right credentials for the account you wish to deploy to.</p>
 </li>
 </ol>
+<h2 id="cms-management-information">CMS management information</h2>
+<p>The Removal and update of each CMS relies on the constants.json file to keep records of the istalled CMS, hence this means that 
+the removal/update-lambda scripts only can remove/update the existing resources with that file being present in the root directory. 
+The setup can support many CMS installations on one AWS account however this will exceed the free tier on the platform.  </p>
 <h2 id="perform-setup-steps">Perform setup steps</h2>
 <ol>
 <li>To deploy, run the following command in your terminal window<br />
@@ -186,17 +190,16 @@
 <p><img alt="Setup" src="../../img/setup-command-screen.png" /></p>
 <h4 id="installation-success-check">Installation Success Check</h4>
 <p>After the Setup script has finished its work, navigate to <a href="../aws.amazon.com">Amazon Web Services</a> and login to verify your installation was successful.<br />
-You should be able to see new resources within the <strong>S3 bucket</strong>, <strong>Dynamo Database</strong>, <strong>API gateway</strong> and <strong>Lambda</strong> with the same CMS-Name suffixed to the resource name.</p>
+You should be able to see new resources within the <strong>S3 bucket</strong>, <strong>Dynamo Database</strong>, <strong>API gateway</strong> and <strong>Lambda</strong> with the same CMS-Name suffixed 
+to the resource name.</p>
 <h4 id="admin-login-credentials">Admin Login Credentials</h4>
 <p>You will be given a default <strong>Password</strong> and <strong>Username</strong> to login to the <strong>Admin panel</strong> at the end of the setup as seen bellow.
 <img alt="Finished Setup" src="../../img/finished-setup.png" /></p>
 <h2 id="setting-up-cloudfront">Setting Up CloudFront</h2>
-<p>Next you would want to set up your Cloud Front.
+<p>Next you would want to set up your Cloud Front from the AWS Console.
 <br />
 <hr></p>
 <h1 id="removal">Removal</h1>
-<h2 id="information">Information</h2>
-<p>Right now the removal </p>
 <h2 id="perform-removal-steps">Perform removal steps</h2>
 <ol>
 <li>To Remove, run the following command in your terminal window.</li>
@@ -204,14 +207,14 @@ You should be able to see new resources within the <strong>S3 bucket</strong>, <
 <pre><code class="Python">python remove.py
 </code></pre>
 
-<p>You will be prompted with a list of installed CMS with a corresponding Number, <em>type</em> the <strong>Number</strong> of the CMS you wish to <strong>Remove</strong> and hit <strong>Enter</strong>.</p>
+<p>You will be prompted with a list of installed CMS with a corresponding Number, type the <strong>Number</strong> of the CMS you wish to <strong>Remove</strong> and hit <strong>Enter</strong>.</p>
 <p><img alt="Remove" src="../../img/remove.png" />
 <br />
 <hr></p>
 <h1 id="updating-lambda-package">Updating Lambda Package</h1>
-<h2 id="information_1">Information</h2>
-<p>The following instructions is for <strong><em>Deploying</em></strong> the <strong>Lambda</strong> package after modifying or adding functionality<br />
-more information about developing on <strong>Lambda</strong> click <a href="https://github.com/Kitsui/AWS-CMS-LAMBDA">here</a></p>
+<h2 id="information">Information</h2>
+<p>The following instructions is for deploying the <strong>Lambda</strong> package after modifying or adding functionality for<br />
+more information about developing on <strong>Lambda</strong> click <a href="https://github.com/Kitsui/AWS-CMS-LAMBDA/wiki">here</a></p>
 <h2 id="perform-update-steps">Perform update steps</h2>
 <ol>
 <li>To Update, run the following command in your terminal window.</li>
@@ -219,7 +222,7 @@ more information about developing on <strong>Lambda</strong> click <a href="http
 <pre><code class="Python">python update.py
 </code></pre>
 
-<p>You will be prompted with a list of installed CMS with a corresponding Number, <em>type</em> the <strong>Number</strong> of the CMS you wish to <strong>Update</strong> and hit <strong>Enter</strong>.</p>
+<p>You will be prompted with a list of installed CMS with a corresponding Number, type the <strong>Number</strong> of the CMS you wish to <strong>Update</strong> and hit <strong>Enter</strong>.</p>
 <p><img alt="Update" src="../../img/update.png" />  </p>
 <h3 id="everything-looks-pretty-good-so-far">Everything Looks pretty good so far!</h3>
 <p><strong>Lets set up the settings of your personalised site!</strong><br />
