@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\nSetup\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\nInstalling\n\n\nRemoving\n\n\nUpdating\n\n\n\n\n\n\n\n\nSite Settings\n\n\n\n\nSetting up Cloud Front", 
+            "text": "Welcome to the Kitsui documentation\n\n\nGetting Started\n\n\n\n\n\n\nInstalling Kitsui CMS\n\n\n\n\n\n\nSite Settings\n\n\n\n\n\n\nManaging Content\n\n\n\n\n\n\nUsers and Roles", 
             "title": "Home"
         }, 
         {
@@ -12,13 +12,8 @@
         }, 
         {
             "location": "/#getting-started", 
-            "text": "", 
+            "text": "Installing Kitsui CMS    Site Settings    Managing Content    Users and Roles", 
             "title": "Getting Started"
-        }, 
-        {
-            "location": "/#setup", 
-            "text": "Installing Kitsui CMS   Installing  Removing  Updating     Site Settings   Setting up Cloud Front", 
-            "title": "Setup"
         }, 
         {
             "location": "/Managing Content/", 
